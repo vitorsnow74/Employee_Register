@@ -1,0 +1,11 @@
+C:\Users\vitor\Documents\WorkerRegister\WorkerRegister\WorkerRegister\bin\Debug\WorkerRegister.exe.config
+C:\Users\vitor\Documents\WorkerRegister\WorkerRegister\WorkerRegister\bin\Debug\WorkerRegister.exe
+C:\Users\vitor\Documents\WorkerRegister\WorkerRegister\WorkerRegister\bin\Debug\WorkerRegister.pdb
+C:\Users\vitor\Documents\WorkerRegister\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.csproj.AssemblyReference.cache
+C:\Users\vitor\Documents\WorkerRegister\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.Forms.RegisterScreen.resources
+C:\Users\vitor\Documents\WorkerRegister\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.WorkerRegister.resources
+C:\Users\vitor\Documents\WorkerRegister\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.Properties.Resources.resources
+C:\Users\vitor\Documents\WorkerRegister\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.csproj.GenerateResource.cache
+C:\Users\vitor\Documents\WorkerRegister\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.csproj.CoreCompileInputs.cache
+C:\Users\vitor\Documents\WorkerRegister\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.exe
+C:\Users\vitor\Documents\WorkerRegister\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.pdb
