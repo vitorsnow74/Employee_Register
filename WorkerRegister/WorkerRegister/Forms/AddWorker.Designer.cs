@@ -161,11 +161,12 @@ namespace WorkerRegister.Forms
             // workerDepartmentLabel
             // 
             this.workerDepartmentLabel.AutoSize = true;
+            this.workerDepartmentLabel.ForeColor = System.Drawing.SystemColors.Highlight;
             this.workerDepartmentLabel.Location = new System.Drawing.Point(182, 83);
             this.workerDepartmentLabel.Name = "workerDepartmentLabel";
-            this.workerDepartmentLabel.Size = new System.Drawing.Size(33, 13);
+            this.workerDepartmentLabel.Size = new System.Drawing.Size(97, 13);
             this.workerDepartmentLabel.TabIndex = 35;
-            this.workerDepartmentLabel.Text = "None";
+            this.workerDepartmentLabel.Text = "click here to reveal";
             this.workerDepartmentLabel.Click += new System.EventHandler(this.workerDepartmentLabel_Click);
             // 
             // juniorRadioButton

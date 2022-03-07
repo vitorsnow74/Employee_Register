@@ -1,0 +1,20 @@
+{
+  "Name": "",
+  "Level": "",
+  "BaseSalary": "",
+  "Department": "",
+  "Contracts": [
+    {
+      "Date": "",
+      "ValuePerHour": "",
+      "Hours": "",
+      "TotalValue": ""
+    },
+    {
+      "Date": "",
+      "ValuePerHour": "",
+      "Hours": "",
+      "TotalValue": ""
+    }
+  ]
+}

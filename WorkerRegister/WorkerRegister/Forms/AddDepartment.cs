@@ -1,4 +1,5 @@
 ﻿using System.Windows.Forms;
+using WorkerRegister;
 using WorkerRegister.Forms;
 using WorkerRegister.Entities;
 
@@ -9,9 +10,7 @@ namespace WorkerRegister.Forms
         public AddDepartment()
         {
             InitializeComponent();
-        }
-
-        public static string DText { get; set; }      
+        }              
 
         private void createButton_Click(object sender, System.EventArgs e)
         {
@@ -34,8 +33,7 @@ namespace WorkerRegister.Forms
             {
                 MessageBox.Show("You must type the Department's name!");
             }
-
-            DText = text;
+            MainScreen.dataController.CreateDepartment(text);
         }
 
         private void backButton_Click(object sender, System.EventArgs e)

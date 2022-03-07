@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataController\DataController.cs" />
     <Compile Include="Entities\Department.cs" />
     <Compile Include="Entities\Enum\WorkerLevel.cs" />
     <Compile Include="Entities\HourContract.cs" />
@@ -106,6 +107,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="JSON Examples\Contract.json" />
+    <None Include="JSON Examples\Department.json" />
+    <None Include="JSON Examples\Worker.json" />
+    <None Include="JSON Examples\WorkerLevel.json" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -11,10 +11,19 @@ namespace WorkerRegister
             InitializeComponent();
         }
 
+        public static DataController dataController { get; set; } = new DataController();
+        
         private void createWorkerButton_Click(object sender, EventArgs e)
         {
-            AddDepartment addDepartment = new AddDepartment();
-            addDepartment.Show();
+            if (!dataController.Created)
+            {
+                AddDepartment addDepartment = new AddDepartment();
+                addDepartment.Show();
+            }
+            else 
+            {
+                MessageBox.Show("User already exists!");
+            }
         }
 
         private void calculateIncomeButton_Click(object sender, EventArgs e)
