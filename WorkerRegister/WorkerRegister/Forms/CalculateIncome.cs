@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WorkerRegister.Forms
 {
-    public partial class RegisterScreen : Form
+    public partial class CalculateIncome : Form
     {
-        public RegisterScreen()
+        public CalculateIncome()
         {
             InitializeComponent();
         }

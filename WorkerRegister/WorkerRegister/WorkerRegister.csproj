@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{59ECC592-C1A2-49DC-9C06-8AF3145D0C67}</ProjectGuid>
+    <ProjectGuid>{158C5004-6E7E-4E31-8B7C-557DBD301379}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>WorkerRegister</RootNamespace>
     <AssemblyName>WorkerRegister</AssemblyName>
@@ -47,14 +47,32 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Department.cs" />
-    <Compile Include="Entities\Enums\WorkerLevel.cs" />
+    <Compile Include="Entities\Enum\WorkerLevel.cs" />
     <Compile Include="Entities\HourContract.cs" />
     <Compile Include="Entities\Worker.cs" />
-    <Compile Include="Forms\RegisterScreen.cs">
+    <Compile Include="Forms\AddContract.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\RegisterScreen.Designer.cs">
-      <DependentUpon>RegisterScreen.cs</DependentUpon>
+    <Compile Include="Forms\AddContract.Designer.cs">
+      <DependentUpon>AddContract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddDepartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddDepartment.Designer.cs">
+      <DependentUpon>AddDepartment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddWorker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddWorker.Designer.cs">
+      <DependentUpon>AddWorker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CalculateIncome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CalculateIncome.Designer.cs">
+      <DependentUpon>CalculateIncome.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\WorkerRegister.cs">
       <SubType>Form</SubType>
@@ -64,8 +82,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\RegisterScreen.resx">
-      <DependentUpon>RegisterScreen.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\AddContract.resx">
+      <DependentUpon>AddContract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddDepartment.resx">
+      <DependentUpon>AddDepartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddWorker.resx">
+      <DependentUpon>AddWorker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CalculateIncome.resx">
+      <DependentUpon>CalculateIncome.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\WorkerRegister.resx">
       <DependentUpon>WorkerRegister.cs</DependentUpon>

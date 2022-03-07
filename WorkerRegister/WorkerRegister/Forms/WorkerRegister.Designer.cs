@@ -1,7 +1,7 @@
 ﻿
 namespace WorkerRegister
 {
-    partial class WorkerRegister
+    partial class MainScreen
     {
         /// <summary>
         /// Required designer variable.
@@ -29,110 +29,64 @@ namespace WorkerRegister
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WorkerRegister));
-            this.registerButton = new System.Windows.Forms.Button();
-            this.insertDepartmentLabel = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainScreen));
+            this.exitButton = new System.Windows.Forms.Button();
+            this.calculateIncomeButton = new System.Windows.Forms.Button();
+            this.createWorkerButton = new System.Windows.Forms.Button();
+            this.mainTextLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // registerButton
+            // exitButton
             // 
-            this.registerButton.Location = new System.Drawing.Point(364, 42);
-            this.registerButton.Name = "registerButton";
-            this.registerButton.Size = new System.Drawing.Size(75, 23);
-            this.registerButton.TabIndex = 0;
-            this.registerButton.Text = "Register";
-            this.registerButton.UseVisualStyleBackColor = true;
-            this.registerButton.Click += new System.EventHandler(this.registerButton_Click);
+            this.exitButton.Location = new System.Drawing.Point(215, 252);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(365, 48);
+            this.exitButton.TabIndex = 11;
+            this.exitButton.Text = "Exit";
+            this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
-            // insertDepartmentLabel
+            // calculateIncomeButton
             // 
-            this.insertDepartmentLabel.AutoSize = true;
-            this.insertDepartmentLabel.Location = new System.Drawing.Point(27, 47);
-            this.insertDepartmentLabel.Name = "insertDepartmentLabel";
-            this.insertDepartmentLabel.Size = new System.Drawing.Size(145, 13);
-            this.insertDepartmentLabel.TabIndex = 1;
-            this.insertDepartmentLabel.Text = "Enter the department\'s name:";
+            this.calculateIncomeButton.Location = new System.Drawing.Point(215, 198);
+            this.calculateIncomeButton.Name = "calculateIncomeButton";
+            this.calculateIncomeButton.Size = new System.Drawing.Size(365, 48);
+            this.calculateIncomeButton.TabIndex = 10;
+            this.calculateIncomeButton.Text = "Calculate Income";
+            this.calculateIncomeButton.UseVisualStyleBackColor = true;
+            this.calculateIncomeButton.Click += new System.EventHandler(this.calculateIncomeButton_Click);
             // 
-            // textBox1
+            // createWorkerButton
             // 
-            this.textBox1.Location = new System.Drawing.Point(196, 44);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(148, 20);
-            this.textBox1.TabIndex = 2;
+            this.createWorkerButton.Location = new System.Drawing.Point(215, 144);
+            this.createWorkerButton.Name = "createWorkerButton";
+            this.createWorkerButton.Size = new System.Drawing.Size(365, 48);
+            this.createWorkerButton.TabIndex = 9;
+            this.createWorkerButton.Text = "Create Worker";
+            this.createWorkerButton.UseVisualStyleBackColor = true;
+            this.createWorkerButton.Click += new System.EventHandler(this.createWorkerButton_Click);
             // 
-            // textBox2
+            // mainTextLabel
             // 
-            this.textBox2.Location = new System.Drawing.Point(276, 169);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(148, 20);
-            this.textBox2.TabIndex = 4;
+            this.mainTextLabel.AutoSize = true;
+            this.mainTextLabel.Location = new System.Drawing.Point(347, 104);
+            this.mainTextLabel.Name = "mainTextLabel";
+            this.mainTextLabel.Size = new System.Drawing.Size(93, 13);
+            this.mainTextLabel.TabIndex = 8;
+            this.mainTextLabel.Text = "Choose an option:";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(235, 141);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 13);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Calculate income:";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(202, 236);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(142, 23);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Search and Calculate";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(162, 176);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 13);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Worker name:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(150, 201);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(86, 13);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Month and Year:";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(276, 198);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(148, 20);
-            this.textBox3.TabIndex = 8;
-            // 
-            // WorkerRegister
+            // MainScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.insertDepartmentLabel);
-            this.Controls.Add(this.registerButton);
+            this.Controls.Add(this.exitButton);
+            this.Controls.Add(this.calculateIncomeButton);
+            this.Controls.Add(this.createWorkerButton);
+            this.Controls.Add(this.mainTextLabel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "WorkerRegister";
+            this.Name = "MainScreen";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Worker Register 2016";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -141,15 +95,10 @@ namespace WorkerRegister
 
         #endregion
 
-        private System.Windows.Forms.Button registerButton;
-        private System.Windows.Forms.Label insertDepartmentLabel;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button exitButton;
+        private System.Windows.Forms.Button calculateIncomeButton;
+        private System.Windows.Forms.Button createWorkerButton;
+        private System.Windows.Forms.Label mainTextLabel;
     }
 }
 

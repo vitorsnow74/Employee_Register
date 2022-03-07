@@ -1,28 +1,30 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using WorkerRegister.Forms;
-using WorkerRegister.Entities;
 
 namespace WorkerRegister
 {
-    public partial class WorkerRegister : Form
+    public partial class MainScreen : Form
     {
-        public WorkerRegister()
+        public MainScreen()
         {
             InitializeComponent();
         }
 
-        private void registerButton_Click(object sender, EventArgs e)
+        private void createWorkerButton_Click(object sender, EventArgs e)
         {
-            RegisterScreen register = new RegisterScreen();
-            register.Show();
+            AddDepartment addDepartment = new AddDepartment();
+            addDepartment.Show();
+        }
+
+        private void calculateIncomeButton_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
