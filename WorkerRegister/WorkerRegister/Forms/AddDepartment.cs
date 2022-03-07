@@ -34,11 +34,12 @@ namespace WorkerRegister.Forms
                 MessageBox.Show("You must type the Department's name!");
             }
             MainScreen.dataController.CreateDepartment(text);
+            this.Close();
         }
 
         private void backButton_Click(object sender, System.EventArgs e)
         {
             this.Close();
-        }
+        }        
     }
 }

@@ -93,7 +93,7 @@ namespace WorkerRegister.Forms
             else {
                 MessageBox.Show("The name box cannot be Empty!");
             }
-            MainScreen.dataController.Created = true;
+            MainScreen.dataController.Created = true;            
         }
 
 

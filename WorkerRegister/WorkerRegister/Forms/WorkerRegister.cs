@@ -28,7 +28,7 @@ namespace WorkerRegister
 
         private void calculateIncomeButton_Click(object sender, EventArgs e)
         {
-           
+            MessageBox.Show("Comming soon!");
         }
 
         private void exitButton_Click(object sender, EventArgs e)
