@@ -30,8 +30,6 @@ C:\Users\vitor\Desktop\Projetos\WorkerRegister\WorkerRegister\bin\Debug\WorkerRe
 C:\Users\vitor\Desktop\Projetos\WorkerRegister\WorkerRegister\bin\Debug\WorkerRegister.pdb
 C:\Users\vitor\Desktop\Projetos\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.csproj.AssemblyReference.cache
 C:\Users\vitor\Desktop\Projetos\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.Forms.AddContract.resources
-C:\Users\vitor\Desktop\Projetos\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.Forms.AddDepartment.resources
-C:\Users\vitor\Desktop\Projetos\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.Forms.AddWorker.resources
 C:\Users\vitor\Desktop\Projetos\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.Forms.CalculateIncome.resources
 C:\Users\vitor\Desktop\Projetos\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.MainScreen.resources
 C:\Users\vitor\Desktop\Projetos\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.Properties.Resources.resources
@@ -39,3 +37,5 @@ C:\Users\vitor\Desktop\Projetos\WorkerRegister\WorkerRegister\obj\Debug\WorkerRe
 C:\Users\vitor\Desktop\Projetos\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.csproj.CoreCompileInputs.cache
 C:\Users\vitor\Desktop\Projetos\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.exe
 C:\Users\vitor\Desktop\Projetos\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.pdb
+C:\Users\vitor\Desktop\Projetos\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.Forms.CreateDepartment.resources
+C:\Users\vitor\Desktop\Projetos\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.Forms.CreateWorker.resources

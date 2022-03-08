@@ -1,6 +1,6 @@
 ﻿namespace WorkerRegister.Entities.Enum
 {
-    enum WorkerLevel : int
+    public enum WorkerLevel : int
     {
         Junior = 1,
         MidLevel = 2,

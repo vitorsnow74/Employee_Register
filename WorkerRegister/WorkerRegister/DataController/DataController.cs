@@ -8,22 +8,60 @@ namespace WorkerRegister
 {
     public class DataController
     {
-        public bool Created = false;
-        public string Name { get; set; }
-        public string Level { get; set; }
-        public double BaseSalary { get; set; }
-        public string Department { get; set; }
+        private string Name;
+        private WorkerLevel Level;
+        private double BaseSalary;
+        public Department Department;
+        private List<HourContract> Contracts = new List<HourContract> ();
 
-        public void CreateDepartment(string dept) 
+        public void GetWorkerName(string name) 
         {
-            Department department = new Department(dept);
-            Department = dept;
-        }        
+            this.Name = name;
+        }
 
-        public void CreateLevel(string level) 
+        public void GetWorkerLevel(WorkerLevel level)
         {
-            //WorkerLevel workerLevel = (WorkerLevel)Enum.Parse(typeof(WorkerLevel), level);
-            Level = level;
+            this.Level = level;
+        }
+
+        public void GetWorkerBaseSalary(double baseSalary)
+        {
+            this.BaseSalary = baseSalary;
+        }
+
+        public void GetWorkerDepartment(string department)
+        {
+            this.Department = new Department(department);
+        }
+        
+        public void AddContract(HourContract contract)
+        {
+            Contracts.Add(contract);
+        }
+
+        public void RemoveContract(HourContract contract)
+        {
+            Contracts.Remove(contract);
+        }
+
+        public void CreateWorker() 
+        {
+            Worker worker = new Worker(Name, Level, BaseSalary, Department);
+        }
+
+        public double Income(int month, int year, double baseSalary)
+        {
+            double income = baseSalary;
+            foreach (HourContract contract in Contracts)
+            {
+                if (contract.Date.Year == year && contract.Date.Month == month)
+                {
+                    income += contract.TotalValue();
+                }
+            }
+            return income;
         }
     }
+
+    
 }

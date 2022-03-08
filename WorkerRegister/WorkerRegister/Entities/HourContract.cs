@@ -2,7 +2,7 @@
 
 namespace WorkerRegister.Entities
 {
-    class HourContract
+    public class HourContract
     {
         public DateTime Date { get; set; }
         public double ValuePerHour { get; set; }

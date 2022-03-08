@@ -1,7 +1,7 @@
 ﻿
 namespace WorkerRegister.Forms
 {
-    partial class AddDepartment
+    partial class CreateDepartment
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace WorkerRegister.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddDepartment));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreateDepartment));
             this.backButton = new System.Windows.Forms.Button();
             this.departmentTextBox = new System.Windows.Forms.TextBox();
             this.insertDepartmentLabel = new System.Windows.Forms.Label();

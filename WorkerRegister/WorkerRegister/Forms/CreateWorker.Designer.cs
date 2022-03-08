@@ -1,7 +1,7 @@
 ﻿
 namespace WorkerRegister.Forms
 {
-    partial class AddWorker
+    partial class CreateWorker
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace WorkerRegister.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddWorker));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreateWorker));
             this.insertDataLabel = new System.Windows.Forms.Label();
             this.discardChangesButton = new System.Windows.Forms.Button();
             this.saveButton = new System.Windows.Forms.Button();
@@ -164,9 +164,9 @@ namespace WorkerRegister.Forms
             this.workerDepartmentLabel.ForeColor = System.Drawing.SystemColors.Highlight;
             this.workerDepartmentLabel.Location = new System.Drawing.Point(182, 83);
             this.workerDepartmentLabel.Name = "workerDepartmentLabel";
-            this.workerDepartmentLabel.Size = new System.Drawing.Size(97, 13);
+            this.workerDepartmentLabel.Size = new System.Drawing.Size(93, 13);
             this.workerDepartmentLabel.TabIndex = 35;
-            this.workerDepartmentLabel.Text = "click here to reveal";
+            this.workerDepartmentLabel.Text = "click here to show";
             this.workerDepartmentLabel.Click += new System.EventHandler(this.workerDepartmentLabel_Click);
             // 
             // juniorRadioButton

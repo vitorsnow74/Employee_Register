@@ -1,7 +1,7 @@
 ﻿
 namespace WorkerRegister.Entities
 {
-    class Department
+    public class Department
     {
         public string Name { get; set; }
 

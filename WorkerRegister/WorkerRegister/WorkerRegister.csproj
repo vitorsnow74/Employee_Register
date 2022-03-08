@@ -57,17 +57,17 @@
     <Compile Include="Forms\AddContract.Designer.cs">
       <DependentUpon>AddContract.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\AddDepartment.cs">
+    <Compile Include="Forms\CreateDepartment.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\AddDepartment.Designer.cs">
-      <DependentUpon>AddDepartment.cs</DependentUpon>
+    <Compile Include="Forms\CreateDepartment.Designer.cs">
+      <DependentUpon>CreateDepartment.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\AddWorker.cs">
+    <Compile Include="Forms\CreateWorker.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\AddWorker.Designer.cs">
-      <DependentUpon>AddWorker.cs</DependentUpon>
+    <Compile Include="Forms\CreateWorker.Designer.cs">
+      <DependentUpon>CreateWorker.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\CalculateIncome.cs">
       <SubType>Form</SubType>
@@ -75,28 +75,34 @@
     <Compile Include="Forms\CalculateIncome.Designer.cs">
       <DependentUpon>CalculateIncome.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\WorkerRegister.cs">
+    <Compile Include="Forms\RemoveContract.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\WorkerRegister.Designer.cs">
-      <DependentUpon>WorkerRegister.cs</DependentUpon>
+    <Compile Include="Forms\RemoveContract.Designer.cs">
+      <DependentUpon>RemoveContract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainScreen.Designer.cs">
+      <DependentUpon>MainScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\AddContract.resx">
       <DependentUpon>AddContract.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\AddDepartment.resx">
-      <DependentUpon>AddDepartment.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\CreateDepartment.resx">
+      <DependentUpon>CreateDepartment.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\AddWorker.resx">
-      <DependentUpon>AddWorker.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\CreateWorker.resx">
+      <DependentUpon>CreateWorker.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\CalculateIncome.resx">
       <DependentUpon>CalculateIncome.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\WorkerRegister.resx">
-      <DependentUpon>WorkerRegister.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\MainScreen.resx">
+      <DependentUpon>MainScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

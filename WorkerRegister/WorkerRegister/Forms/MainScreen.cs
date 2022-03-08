@@ -15,15 +15,8 @@ namespace WorkerRegister
         
         private void createWorkerButton_Click(object sender, EventArgs e)
         {
-            if (!dataController.Created)
-            {
-                AddDepartment addDepartment = new AddDepartment();
+                CreateDepartment addDepartment = new CreateDepartment();
                 addDepartment.Show();
-            }
-            else 
-            {
-                MessageBox.Show("User already exists!");
-            }
         }
 
         private void calculateIncomeButton_Click(object sender, EventArgs e)

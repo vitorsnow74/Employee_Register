@@ -7,42 +7,33 @@ using WorkerRegister.Forms;
 
 namespace WorkerRegister.Forms
 {
-    public partial class AddWorker : Form
+    public partial class CreateWorker : Form
     {
-        public AddWorker()
+        public CreateWorker()
         {
             InitializeComponent();            
+        }       
+
+        private void workerDepartmentLabel_Click(object sender, System.EventArgs e)
+        {                        
+            workerDepartmentLabel.Text = MainScreen.dataController.Department.Name;
         }
 
         private string LevelStatus = "";
 
-        private void workerDepartmentLabel_Click(object sender, System.EventArgs e)
-        {                        
-            workerDepartmentLabel.Text = MainScreen.dataController.Department;
-        }
-
         private void juniorRadioButton_CheckedChanged(object sender, EventArgs e)
         {
-            if (juniorRadioButton.Checked)
-            {
-                LevelStatus = "Junior";
-            }
+                LevelStatus = "Junior";           
         }
 
         private void midLevelRadioButton_CheckedChanged(object sender, System.EventArgs e)
         {
-            if (midLevelRadioButton.Checked)
-            {
                 LevelStatus = "MidLevel";
-            }
         }
 
         private void seniorRadioButton_CheckedChanged(object sender, System.EventArgs e)
         {
-            if (seniorRadioButton.Checked)
-            {
                 LevelStatus = "Senior";
-            }
         }
 
         private void createContractsButton_Click(object sender, System.EventArgs e)
@@ -53,7 +44,8 @@ namespace WorkerRegister.Forms
 
         private void removeContractsButton_Click(object sender, System.EventArgs e)
         {
-
+            RemoveContract removeContract = new RemoveContract();
+            removeContract.Show();
         }
 
         private void discardChangesButton_Click(object sender, System.EventArgs e)
@@ -65,23 +57,24 @@ namespace WorkerRegister.Forms
         {
             if (!String.IsNullOrWhiteSpace(nameTextBox.Text))
             {
+                MainScreen.dataController.GetWorkerName(nameTextBox.Text);
+
                 if (!String.IsNullOrWhiteSpace(baseSalaryTextBox.Text))
                 {
-                    MainScreen.dataController.Name = nameTextBox.Text;
+                    MainScreen.dataController.GetWorkerBaseSalary(double.Parse(baseSalaryTextBox.Text, CultureInfo.InvariantCulture));
 
-                    if (String.IsNullOrEmpty(LevelStatus))
+                    if (!String.IsNullOrEmpty(LevelStatus))
                     {
-                        MessageBox.Show("The worker level must be informated!\nAnd if it doesn't, it will be \"Junior\" by default.");
-                        MainScreen.dataController.CreateLevel("Junior");
-                        this.Close();
+                        MainScreen.dataController.GetWorkerLevel((WorkerLevel)Enum.Parse(typeof(WorkerLevel), LevelStatus));                        
                     }
                     else
                     {
-                        MainScreen.dataController.CreateLevel(LevelStatus);
+                        MessageBox.Show("The worker level must be informated!\nBut do not worry, it will be \"Junior\" by default.");
+                        MainScreen.dataController.GetWorkerLevel((WorkerLevel)Enum.Parse(typeof(WorkerLevel), "Junior"));
+                        this.Close();
                     }
 
-                    MainScreen.dataController.BaseSalary = double.Parse(baseSalaryTextBox.Text, CultureInfo.InvariantCulture);
-
+                    MainScreen.dataController.CreateWorker();
                     MessageBox.Show("Worker created sucessefully!");
                     this.Close();
                 }
@@ -92,8 +85,7 @@ namespace WorkerRegister.Forms
             }
             else {
                 MessageBox.Show("The name box cannot be Empty!");
-            }
-            MainScreen.dataController.Created = true;            
+            }            
         }
 
 

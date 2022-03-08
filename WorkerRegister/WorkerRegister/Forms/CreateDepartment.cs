@@ -5,9 +5,9 @@ using WorkerRegister.Entities;
 
 namespace WorkerRegister.Forms
 {
-    public partial class AddDepartment : Form
+    public partial class CreateDepartment : Form
     {
-        public AddDepartment()
+        public CreateDepartment()
         {
             InitializeComponent();
         }              
@@ -16,12 +16,13 @@ namespace WorkerRegister.Forms
         {
             string text = departmentTextBox.Text;
 
-            AddWorker addWorker = new AddWorker();
+            CreateWorker addWorker = new CreateWorker();
 
             if (!string.IsNullOrWhiteSpace(text))
             {
                 if (text.Length >= 2)
-                {                    
+                {
+                    MainScreen.dataController.GetWorkerDepartment(text);
                     addWorker.Show();                                                         
                 }
                 else
@@ -33,7 +34,7 @@ namespace WorkerRegister.Forms
             {
                 MessageBox.Show("You must type the Department's name!");
             }
-            MainScreen.dataController.CreateDepartment(text);
+            
             this.Close();
         }
 

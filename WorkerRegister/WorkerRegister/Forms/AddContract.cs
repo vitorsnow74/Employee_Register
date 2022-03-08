@@ -27,7 +27,16 @@ namespace WorkerRegister.Forms
 
             HourContract contract = new HourContract(date, valuePerHour, hours);
             Contracts.Add(contract);
-        }        
+
+            ClearInformation();
+        }
+
+        private void ClearInformation()
+        {
+            dateTimePicker.Value = DateTime.Now;
+            valuePerHourTextBox.Text = "";
+            durationTextBox.Text = "";
+        }
 
         private void closeButton_Click(object sender, EventArgs e)
         {
