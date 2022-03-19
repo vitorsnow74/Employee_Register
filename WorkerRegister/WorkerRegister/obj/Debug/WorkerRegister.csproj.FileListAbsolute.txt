@@ -39,3 +39,19 @@ C:\Users\vitor\Desktop\Projetos\WorkerRegister\WorkerRegister\obj\Debug\WorkerRe
 C:\Users\vitor\Desktop\Projetos\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.pdb
 C:\Users\vitor\Desktop\Projetos\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.Forms.CreateDepartment.resources
 C:\Users\vitor\Desktop\Projetos\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.Forms.CreateWorker.resources
+C:\Users\joaov\Documents\Csharp Worker Reg\WorkerRegister\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.csproj.AssemblyReference.cache
+C:\Users\joaov\Documents\Csharp Worker Reg\WorkerRegister\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.Forms.AddContract.resources
+C:\Users\joaov\Documents\Csharp Worker Reg\WorkerRegister\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.Forms.CreateDepartment.resources
+C:\Users\joaov\Documents\Csharp Worker Reg\WorkerRegister\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.Forms.CreateWorker.resources
+C:\Users\joaov\Documents\Csharp Worker Reg\WorkerRegister\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.Forms.CalculateIncome.resources
+C:\Users\joaov\Documents\Csharp Worker Reg\WorkerRegister\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.MainScreen.resources
+C:\Users\joaov\Documents\Csharp Worker Reg\WorkerRegister\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.Properties.Resources.resources
+C:\Users\joaov\Documents\Csharp Worker Reg\WorkerRegister\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.csproj.GenerateResource.cache
+C:\Users\joaov\Documents\Csharp Worker Reg\WorkerRegister\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.csproj.CoreCompileInputs.cache
+C:\Users\joaov\Documents\Csharp Worker Reg\WorkerRegister\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.exe
+C:\Users\joaov\Documents\Csharp Worker Reg\WorkerRegister\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.pdb
+C:\Users\joaov\Documents\Csharp Worker Reg\WorkerRegister\WorkerRegister\WorkerRegister\bin\Debug\WorkerRegister.exe.config
+C:\Users\joaov\Documents\Csharp Worker Reg\WorkerRegister\WorkerRegister\WorkerRegister\bin\Debug\WorkerRegister.exe
+C:\Users\joaov\Documents\Csharp Worker Reg\WorkerRegister\WorkerRegister\WorkerRegister\bin\Debug\WorkerRegister.pdb
+C:\Users\joaov\Documents\Csharp Worker Reg\WorkerRegister\WorkerRegister\WorkerRegister\bin\Debug\MaterialSkin.dll
+C:\Users\joaov\Documents\Csharp Worker Reg\WorkerRegister\WorkerRegister\WorkerRegister\obj\Debug\WorkerRegister.csproj.CopyComplete

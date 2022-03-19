@@ -4,14 +4,21 @@ using System.Globalization;
 using WorkerRegister.Entities;
 using WorkerRegister.Entities.Enum;
 using WorkerRegister.Forms;
+using MaterialSkin;
+using MaterialSkin.Controls;
 
 namespace WorkerRegister.Forms
 {
-    public partial class CreateWorker : Form
+    public partial class CreateWorker : MaterialForm
     {
         public CreateWorker()
         {
-            InitializeComponent();            
+            InitializeComponent();
+
+            var materialSkinManager = MaterialSkinManager.Instance;
+            materialSkinManager.AddFormToManage(this);
+            materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+            materialSkinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE);
         }       
 
         private void workerDepartmentLabel_Click(object sender, System.EventArgs e)

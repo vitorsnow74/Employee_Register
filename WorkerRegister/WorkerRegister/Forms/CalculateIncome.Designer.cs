@@ -39,7 +39,7 @@ namespace WorkerRegister.Forms
             // 
             // monthAndYearTextBox
             // 
-            this.monthAndYearTextBox.Location = new System.Drawing.Point(91, 81);
+            this.monthAndYearTextBox.Location = new System.Drawing.Point(92, 134);
             this.monthAndYearTextBox.Name = "monthAndYearTextBox";
             this.monthAndYearTextBox.Size = new System.Drawing.Size(148, 20);
             this.monthAndYearTextBox.TabIndex = 19;
@@ -47,7 +47,7 @@ namespace WorkerRegister.Forms
             // monthAndYearLabel
             // 
             this.monthAndYearLabel.AutoSize = true;
-            this.monthAndYearLabel.Location = new System.Drawing.Point(122, 65);
+            this.monthAndYearLabel.Location = new System.Drawing.Point(123, 118);
             this.monthAndYearLabel.Name = "monthAndYearLabel";
             this.monthAndYearLabel.Size = new System.Drawing.Size(86, 13);
             this.monthAndYearLabel.TabIndex = 18;
@@ -56,7 +56,7 @@ namespace WorkerRegister.Forms
             // workerNameLabel
             // 
             this.workerNameLabel.AutoSize = true;
-            this.workerNameLabel.Location = new System.Drawing.Point(122, 21);
+            this.workerNameLabel.Location = new System.Drawing.Point(123, 74);
             this.workerNameLabel.Name = "workerNameLabel";
             this.workerNameLabel.Size = new System.Drawing.Size(74, 13);
             this.workerNameLabel.TabIndex = 17;
@@ -64,7 +64,7 @@ namespace WorkerRegister.Forms
             // 
             // searchAndCalculateButton
             // 
-            this.searchAndCalculateButton.Location = new System.Drawing.Point(97, 125);
+            this.searchAndCalculateButton.Location = new System.Drawing.Point(98, 178);
             this.searchAndCalculateButton.Name = "searchAndCalculateButton";
             this.searchAndCalculateButton.Size = new System.Drawing.Size(142, 23);
             this.searchAndCalculateButton.TabIndex = 16;
@@ -73,7 +73,7 @@ namespace WorkerRegister.Forms
             // 
             // workerNameTextBox
             // 
-            this.workerNameTextBox.Location = new System.Drawing.Point(91, 37);
+            this.workerNameTextBox.Location = new System.Drawing.Point(92, 90);
             this.workerNameTextBox.Name = "workerNameTextBox";
             this.workerNameTextBox.Size = new System.Drawing.Size(148, 20);
             this.workerNameTextBox.TabIndex = 15;
@@ -82,7 +82,7 @@ namespace WorkerRegister.Forms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(333, 180);
+            this.ClientSize = new System.Drawing.Size(333, 226);
             this.Controls.Add(this.monthAndYearTextBox);
             this.Controls.Add(this.monthAndYearLabel);
             this.Controls.Add(this.workerNameLabel);

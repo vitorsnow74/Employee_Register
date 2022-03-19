@@ -48,7 +48,7 @@ namespace WorkerRegister.Forms
             // 
             // departmentTextBox
             // 
-            this.departmentTextBox.Location = new System.Drawing.Point(57, 88);
+            this.departmentTextBox.Location = new System.Drawing.Point(58, 108);
             this.departmentTextBox.Name = "departmentTextBox";
             this.departmentTextBox.Size = new System.Drawing.Size(181, 20);
             this.departmentTextBox.TabIndex = 9;
@@ -56,7 +56,7 @@ namespace WorkerRegister.Forms
             // insertDepartmentLabel
             // 
             this.insertDepartmentLabel.AutoSize = true;
-            this.insertDepartmentLabel.Location = new System.Drawing.Point(74, 62);
+            this.insertDepartmentLabel.Location = new System.Drawing.Point(75, 82);
             this.insertDepartmentLabel.Name = "insertDepartmentLabel";
             this.insertDepartmentLabel.Size = new System.Drawing.Size(145, 13);
             this.insertDepartmentLabel.TabIndex = 8;
@@ -72,7 +72,7 @@ namespace WorkerRegister.Forms
             this.createButton.UseVisualStyleBackColor = true;
             this.createButton.Click += new System.EventHandler(this.createButton_Click);
             // 
-            // AddDepartment
+            // CreateDepartment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -82,7 +82,7 @@ namespace WorkerRegister.Forms
             this.Controls.Add(this.insertDepartmentLabel);
             this.Controls.Add(this.createButton);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "AddDepartment";
+            this.Name = "CreateDepartment";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Create department";
             this.ResumeLayout(false);

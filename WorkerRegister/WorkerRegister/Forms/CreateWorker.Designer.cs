@@ -51,7 +51,7 @@ namespace WorkerRegister.Forms
             // insertDataLabel
             // 
             this.insertDataLabel.AutoSize = true;
-            this.insertDataLabel.Location = new System.Drawing.Point(222, 39);
+            this.insertDataLabel.Location = new System.Drawing.Point(15, 70);
             this.insertDataLabel.Name = "insertDataLabel";
             this.insertDataLabel.Size = new System.Drawing.Size(146, 13);
             this.insertDataLabel.TabIndex = 33;
@@ -152,7 +152,7 @@ namespace WorkerRegister.Forms
             // currentDepartmentLabel
             // 
             this.currentDepartmentLabel.AutoSize = true;
-            this.currentDepartmentLabel.Location = new System.Drawing.Point(59, 83);
+            this.currentDepartmentLabel.Location = new System.Drawing.Point(59, 88);
             this.currentDepartmentLabel.Name = "currentDepartmentLabel";
             this.currentDepartmentLabel.Size = new System.Drawing.Size(102, 13);
             this.currentDepartmentLabel.TabIndex = 34;
@@ -162,7 +162,7 @@ namespace WorkerRegister.Forms
             // 
             this.workerDepartmentLabel.AutoSize = true;
             this.workerDepartmentLabel.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.workerDepartmentLabel.Location = new System.Drawing.Point(182, 83);
+            this.workerDepartmentLabel.Location = new System.Drawing.Point(182, 88);
             this.workerDepartmentLabel.Name = "workerDepartmentLabel";
             this.workerDepartmentLabel.Size = new System.Drawing.Size(93, 13);
             this.workerDepartmentLabel.TabIndex = 35;
@@ -205,7 +205,7 @@ namespace WorkerRegister.Forms
             this.seniorRadioButton.UseVisualStyleBackColor = true;
             this.seniorRadioButton.CheckedChanged += new System.EventHandler(this.seniorRadioButton_CheckedChanged);
             // 
-            // AddWorker
+            // CreateWorker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -227,7 +227,7 @@ namespace WorkerRegister.Forms
             this.Controls.Add(this.nameTextBox);
             this.Controls.Add(this.nameRegisterLabel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "AddWorker";
+            this.Name = "CreateWorker";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Creating Worker";
             this.ResumeLayout(false);

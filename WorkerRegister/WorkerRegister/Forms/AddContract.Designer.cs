@@ -64,7 +64,7 @@ namespace WorkerRegister.Forms
             // contractCountLabel
             // 
             this.contractCountLabel.AutoSize = true;
-            this.contractCountLabel.Location = new System.Drawing.Point(300, 46);
+            this.contractCountLabel.Location = new System.Drawing.Point(302, 70);
             this.contractCountLabel.Name = "contractCountLabel";
             this.contractCountLabel.Size = new System.Drawing.Size(63, 13);
             this.contractCountLabel.TabIndex = 2;

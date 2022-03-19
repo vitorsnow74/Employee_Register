@@ -2,14 +2,21 @@
 using WorkerRegister;
 using WorkerRegister.Forms;
 using WorkerRegister.Entities;
+using MaterialSkin;
+using MaterialSkin.Controls;
 
 namespace WorkerRegister.Forms
 {
-    public partial class CreateDepartment : Form
+    public partial class CreateDepartment : MaterialForm
     {
         public CreateDepartment()
         {
             InitializeComponent();
+
+            var materialSkinManager = MaterialSkinManager.Instance;
+            materialSkinManager.AddFormToManage(this);
+            materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+            materialSkinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE);
         }              
 
         private void createButton_Click(object sender, System.EventArgs e)
