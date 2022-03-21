@@ -1,17 +1,26 @@
-# WorkerRegister
+# Employee Register
 
-### Projeto criado com base na atividade do curso  do Professor Nélio Alves, sobre Enums.
-
-### Assim que concluida a atividade, resolvi criar uma interface visual para o projeto para colocar em prática as coisas que já aprendi no curso.
+## [ 👨‍💻 Imagens em breve ]
 
 <br>
 
-### Credito dos icones usados no projeto:
+### Projeto criado com base na atividade do modulo sobre Enums do curso de C# do Professor Nélio Alves.
+<br>
 
+### O intuito desse projeto é criar e salvar um funcionário, poder adicionar e remover contratos e saber quanto este funcionário ganhou em um determinado mês.
 
-<a target="_blank" href="https://icons8.com.br/icon/gVnleO7luyCg/work">Work</a> ícone por <a target="_blank" href="https://icons8.com.br">Icons8</a>
+<br>
 
-<a target="_blank" href="https://icons8.com.br/icon/MbXfxOhQpe90/worker">Worker</a> ícone por <a target="_blank" href="https://icons8.com.br">Icons8</a>
+## [ 👨‍💻 Imagens em breve ]
 
+<br>
 
-<a target="_blank" href="https://icons8.com.brundefined">Petição</a> ícone por <a target="_blank" href="https://icons8.com.br">Icons8</a>
+## Modificações pendentes da Aplicação:
+<hr>
+
+### [ ] Corrigir layout
+### [ ] Corrigir erros
+### [ ] Name Textbox -> Corrigir erro em que não aparece a barra de digitação
+### [ ] Current Department -> Corrigir o erro que não atualiza em tempo real
+### [ ] Calculate Income -> Gerar funcionalidade
+### [ ] Terminar aplicação

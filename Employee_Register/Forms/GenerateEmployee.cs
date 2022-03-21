@@ -22,7 +22,7 @@ namespace Employee_Register.Forms
 
         private void workerDepartmentLabel_Click(object sender, System.EventArgs e)
         {
-            workerDepartmentLabel.Text = MainScreen.dataController.Department.Name;
+            employeeDepartmentLabel.Text = MainScreen.dataController.Department.Name;
         }
 
         private string LevelStatus = "";

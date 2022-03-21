@@ -29,9 +29,8 @@ namespace Employee_Register.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddContract));
             this.createContractButton = new System.Windows.Forms.Button();
-            this.closeButton = new System.Windows.Forms.Button();
+            this.finishButton = new System.Windows.Forms.Button();
             this.contractCountLabel = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -51,15 +50,15 @@ namespace Employee_Register.Forms
             this.createContractButton.UseVisualStyleBackColor = true;
             this.createContractButton.Click += new System.EventHandler(this.createContractButton_Click);
             // 
-            // closeButton
+            // finishButton
             // 
-            this.closeButton.Location = new System.Drawing.Point(84, 253);
-            this.closeButton.Name = "closeButton";
-            this.closeButton.Size = new System.Drawing.Size(147, 23);
-            this.closeButton.TabIndex = 1;
-            this.closeButton.Text = "Close";
-            this.closeButton.UseVisualStyleBackColor = true;
-            this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
+            this.finishButton.Location = new System.Drawing.Point(84, 253);
+            this.finishButton.Name = "finishButton";
+            this.finishButton.Size = new System.Drawing.Size(147, 23);
+            this.finishButton.TabIndex = 1;
+            this.finishButton.Text = "Close";
+            this.finishButton.UseVisualStyleBackColor = true;
+            this.finishButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
             // contractCountLabel
             // 
@@ -130,9 +129,8 @@ namespace Employee_Register.Forms
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.contractCountLabel);
-            this.Controls.Add(this.closeButton);
+            this.Controls.Add(this.finishButton);
             this.Controls.Add(this.createContractButton);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AddContract";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Adding contracts";
@@ -144,7 +142,7 @@ namespace Employee_Register.Forms
         #endregion
 
         private System.Windows.Forms.Button createContractButton;
-        private System.Windows.Forms.Button closeButton;
+        private System.Windows.Forms.Button finishButton;
         private System.Windows.Forms.Label contractCountLabel;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

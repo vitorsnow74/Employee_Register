@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GenerateEmployee));
             this.insertDataLabel = new System.Windows.Forms.Label();
             this.discardChangesButton = new System.Windows.Forms.Button();
             this.saveButton = new System.Windows.Forms.Button();
@@ -41,7 +40,7 @@
             this.nameTextBox = new System.Windows.Forms.TextBox();
             this.nameRegisterLabel = new System.Windows.Forms.Label();
             this.currentDepartmentLabel = new System.Windows.Forms.Label();
-            this.workerDepartmentLabel = new System.Windows.Forms.Label();
+            this.employeeDepartmentLabel = new System.Windows.Forms.Label();
             this.juniorRadioButton = new System.Windows.Forms.RadioButton();
             this.midLevelRadioButton = new System.Windows.Forms.RadioButton();
             this.seniorRadioButton = new System.Windows.Forms.RadioButton();
@@ -52,9 +51,9 @@
             this.insertDataLabel.AutoSize = true;
             this.insertDataLabel.Location = new System.Drawing.Point(15, 70);
             this.insertDataLabel.Name = "insertDataLabel";
-            this.insertDataLabel.Size = new System.Drawing.Size(146, 13);
+            this.insertDataLabel.Size = new System.Drawing.Size(158, 13);
             this.insertDataLabel.TabIndex = 33;
-            this.insertDataLabel.Text = "Insert the worker data bellow:";
+            this.insertDataLabel.Text = "Enter the employee data bellow:";
             // 
             // discardChangesButton
             // 
@@ -81,9 +80,9 @@
             this.levelRegisterLabel.AutoSize = true;
             this.levelRegisterLabel.Location = new System.Drawing.Point(59, 180);
             this.levelRegisterLabel.Name = "levelRegisterLabel";
-            this.levelRegisterLabel.Size = new System.Drawing.Size(74, 13);
+            this.levelRegisterLabel.Size = new System.Drawing.Size(85, 13);
             this.levelRegisterLabel.TabIndex = 30;
-            this.levelRegisterLabel.Text = "Worker Level:";
+            this.levelRegisterLabel.Text = "Employee Level:";
             // 
             // removeContractsButton
             // 
@@ -157,16 +156,16 @@
             this.currentDepartmentLabel.TabIndex = 34;
             this.currentDepartmentLabel.Text = "Current Department:";
             // 
-            // workerDepartmentLabel
+            // employeeDepartmentLabel
             // 
-            this.workerDepartmentLabel.AutoSize = true;
-            this.workerDepartmentLabel.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.workerDepartmentLabel.Location = new System.Drawing.Point(182, 88);
-            this.workerDepartmentLabel.Name = "workerDepartmentLabel";
-            this.workerDepartmentLabel.Size = new System.Drawing.Size(93, 13);
-            this.workerDepartmentLabel.TabIndex = 35;
-            this.workerDepartmentLabel.Text = "click here to show";
-            this.workerDepartmentLabel.Click += new System.EventHandler(this.workerDepartmentLabel_Click);
+            this.employeeDepartmentLabel.AutoSize = true;
+            this.employeeDepartmentLabel.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.employeeDepartmentLabel.Location = new System.Drawing.Point(182, 88);
+            this.employeeDepartmentLabel.Name = "employeeDepartmentLabel";
+            this.employeeDepartmentLabel.Size = new System.Drawing.Size(93, 13);
+            this.employeeDepartmentLabel.TabIndex = 35;
+            this.employeeDepartmentLabel.Text = "click here to show";
+            this.employeeDepartmentLabel.Click += new System.EventHandler(this.workerDepartmentLabel_Click);
             // 
             // juniorRadioButton
             // 
@@ -212,7 +211,7 @@
             this.Controls.Add(this.seniorRadioButton);
             this.Controls.Add(this.midLevelRadioButton);
             this.Controls.Add(this.juniorRadioButton);
-            this.Controls.Add(this.workerDepartmentLabel);
+            this.Controls.Add(this.employeeDepartmentLabel);
             this.Controls.Add(this.currentDepartmentLabel);
             this.Controls.Add(this.insertDataLabel);
             this.Controls.Add(this.discardChangesButton);
@@ -225,10 +224,9 @@
             this.Controls.Add(this.baseSalaryLabel);
             this.Controls.Add(this.nameTextBox);
             this.Controls.Add(this.nameRegisterLabel);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "GenerateEmployee";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Creating Worker";
+            this.Text = "Generating Employee";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -248,7 +246,7 @@
         private System.Windows.Forms.TextBox nameTextBox;
         private System.Windows.Forms.Label nameRegisterLabel;
         private System.Windows.Forms.Label currentDepartmentLabel;
-        private System.Windows.Forms.Label workerDepartmentLabel;
+        private System.Windows.Forms.Label employeeDepartmentLabel;
         private System.Windows.Forms.RadioButton juniorRadioButton;
         private System.Windows.Forms.RadioButton midLevelRadioButton;
         private System.Windows.Forms.RadioButton seniorRadioButton;

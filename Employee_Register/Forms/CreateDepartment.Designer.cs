@@ -29,7 +29,6 @@ namespace Employee_Register.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreateDepartment));
             this.backButton = new System.Windows.Forms.Button();
             this.departmentTextBox = new System.Windows.Forms.TextBox();
             this.insertDepartmentLabel = new System.Windows.Forms.Label();
@@ -81,7 +80,6 @@ namespace Employee_Register.Forms
             this.Controls.Add(this.departmentTextBox);
             this.Controls.Add(this.insertDepartmentLabel);
             this.Controls.Add(this.createButton);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CreateDepartment";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Create department";

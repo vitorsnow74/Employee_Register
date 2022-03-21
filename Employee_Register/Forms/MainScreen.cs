@@ -20,7 +20,7 @@ namespace Employee_Register.Forms
 
         public static DataController dataController { get; set; } = new DataController();
 
-        private void createWorkerButton_Click(object sender, EventArgs e)
+        private void generateWorkerButton_Click(object sender, EventArgs e)
         {
             CreateDepartment createDepartment = new CreateDepartment();
             createDepartment.Show();

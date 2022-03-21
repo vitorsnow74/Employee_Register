@@ -29,12 +29,11 @@ namespace Employee_Register.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CalculateIncome));
             this.monthAndYearTextBox = new System.Windows.Forms.TextBox();
             this.monthAndYearLabel = new System.Windows.Forms.Label();
-            this.workerNameLabel = new System.Windows.Forms.Label();
+            this.EmployeeNameLabel = new System.Windows.Forms.Label();
             this.searchAndCalculateButton = new System.Windows.Forms.Button();
-            this.workerNameTextBox = new System.Windows.Forms.TextBox();
+            this.employeeNameTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // monthAndYearTextBox
@@ -53,14 +52,14 @@ namespace Employee_Register.Forms
             this.monthAndYearLabel.TabIndex = 18;
             this.monthAndYearLabel.Text = "Month and Year:";
             // 
-            // workerNameLabel
+            // EmployeeNameLabel
             // 
-            this.workerNameLabel.AutoSize = true;
-            this.workerNameLabel.Location = new System.Drawing.Point(123, 74);
-            this.workerNameLabel.Name = "workerNameLabel";
-            this.workerNameLabel.Size = new System.Drawing.Size(74, 13);
-            this.workerNameLabel.TabIndex = 17;
-            this.workerNameLabel.Text = "Worker name:";
+            this.EmployeeNameLabel.AutoSize = true;
+            this.EmployeeNameLabel.Location = new System.Drawing.Point(123, 74);
+            this.EmployeeNameLabel.Name = "EmployeeNameLabel";
+            this.EmployeeNameLabel.Size = new System.Drawing.Size(85, 13);
+            this.EmployeeNameLabel.TabIndex = 17;
+            this.EmployeeNameLabel.Text = "Employee name:";
             // 
             // searchAndCalculateButton
             // 
@@ -71,12 +70,12 @@ namespace Employee_Register.Forms
             this.searchAndCalculateButton.Text = "Search and Calculate";
             this.searchAndCalculateButton.UseVisualStyleBackColor = true;
             // 
-            // workerNameTextBox
+            // employeeNameTextBox
             // 
-            this.workerNameTextBox.Location = new System.Drawing.Point(92, 90);
-            this.workerNameTextBox.Name = "workerNameTextBox";
-            this.workerNameTextBox.Size = new System.Drawing.Size(148, 20);
-            this.workerNameTextBox.TabIndex = 15;
+            this.employeeNameTextBox.Location = new System.Drawing.Point(92, 90);
+            this.employeeNameTextBox.Name = "employeeNameTextBox";
+            this.employeeNameTextBox.Size = new System.Drawing.Size(148, 20);
+            this.employeeNameTextBox.TabIndex = 15;
             // 
             // CalculateIncome
             // 
@@ -85,10 +84,9 @@ namespace Employee_Register.Forms
             this.ClientSize = new System.Drawing.Size(333, 226);
             this.Controls.Add(this.monthAndYearTextBox);
             this.Controls.Add(this.monthAndYearLabel);
-            this.Controls.Add(this.workerNameLabel);
+            this.Controls.Add(this.EmployeeNameLabel);
             this.Controls.Add(this.searchAndCalculateButton);
-            this.Controls.Add(this.workerNameTextBox);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Controls.Add(this.employeeNameTextBox);
             this.Name = "CalculateIncome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculating Income";
@@ -101,8 +99,8 @@ namespace Employee_Register.Forms
 
         private System.Windows.Forms.TextBox monthAndYearTextBox;
         private System.Windows.Forms.Label monthAndYearLabel;
-        private System.Windows.Forms.Label workerNameLabel;
+        private System.Windows.Forms.Label EmployeeNameLabel;
         private System.Windows.Forms.Button searchAndCalculateButton;
-        private System.Windows.Forms.TextBox workerNameTextBox;
+        private System.Windows.Forms.TextBox employeeNameTextBox;
     }
 }

@@ -28,10 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainScreen));
             this.exitButton = new System.Windows.Forms.Button();
             this.calculateIncomeButton = new System.Windows.Forms.Button();
-            this.createWorkerButton = new System.Windows.Forms.Button();
+            this.generateEmployeeButton = new System.Windows.Forms.Button();
             this.mainTextLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -55,24 +54,24 @@
             this.calculateIncomeButton.UseVisualStyleBackColor = true;
             this.calculateIncomeButton.Click += new System.EventHandler(this.calculateIncomeButton_Click);
             // 
-            // createWorkerButton
+            // generateEmployeeButton
             // 
-            this.createWorkerButton.Location = new System.Drawing.Point(215, 144);
-            this.createWorkerButton.Name = "createWorkerButton";
-            this.createWorkerButton.Size = new System.Drawing.Size(365, 48);
-            this.createWorkerButton.TabIndex = 9;
-            this.createWorkerButton.Text = "Create Worker";
-            this.createWorkerButton.UseVisualStyleBackColor = true;
-            this.createWorkerButton.Click += new System.EventHandler(this.createWorkerButton_Click);
+            this.generateEmployeeButton.Location = new System.Drawing.Point(215, 144);
+            this.generateEmployeeButton.Name = "generateEmployeeButton";
+            this.generateEmployeeButton.Size = new System.Drawing.Size(365, 48);
+            this.generateEmployeeButton.TabIndex = 9;
+            this.generateEmployeeButton.Text = "Generate Employee";
+            this.generateEmployeeButton.UseVisualStyleBackColor = true;
+            this.generateEmployeeButton.Click += new System.EventHandler(this.generateWorkerButton_Click);
             // 
             // mainTextLabel
             // 
             this.mainTextLabel.AutoSize = true;
-            this.mainTextLabel.Location = new System.Drawing.Point(347, 104);
+            this.mainTextLabel.Location = new System.Drawing.Point(337, 107);
             this.mainTextLabel.Name = "mainTextLabel";
-            this.mainTextLabel.Size = new System.Drawing.Size(93, 13);
+            this.mainTextLabel.Size = new System.Drawing.Size(113, 13);
             this.mainTextLabel.TabIndex = 8;
-            this.mainTextLabel.Text = "Choose an option:";
+            this.mainTextLabel.Text = "Select what you need:";
             // 
             // MainScreen
             // 
@@ -81,12 +80,11 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.calculateIncomeButton);
-            this.Controls.Add(this.createWorkerButton);
+            this.Controls.Add(this.generateEmployeeButton);
             this.Controls.Add(this.mainTextLabel);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Worker Register 2016";
+            this.Text = "Employee Register 2016";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -96,7 +94,7 @@
 
         private System.Windows.Forms.Button exitButton;
         private System.Windows.Forms.Button calculateIncomeButton;
-        private System.Windows.Forms.Button createWorkerButton;
+        private System.Windows.Forms.Button generateEmployeeButton;
         private System.Windows.Forms.Label mainTextLabel;
     }
 }
